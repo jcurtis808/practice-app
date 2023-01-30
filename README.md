@@ -1,3 +1,1 @@
 # practice-app
-
-Hello idiots. 
