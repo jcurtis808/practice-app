@@ -1,6 +1,9 @@
 const bcrypt = require('bcrypt');
 const { Schema, model } = require('mongoose');
-const flashcardSchema = require('./flashcardSchema.js')
+const flashcardSchema = require('./flashcardSchema')
+const recordingSchema = require('./recordingSchema');
+const practiceLogSchema = require('./practiceLogSchema');
+const calendarSchema = require('./calendarSchema');
 
 const UserSchema = new Schema({
   name: { 
